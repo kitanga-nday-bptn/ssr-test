@@ -1,3 +1,4 @@
+import React from 'react'
 import logo from './logo.svg';
 import './App.css';
 
@@ -17,6 +18,7 @@ function App() {
         >
           Learn React
         </a>
+        <button onClick={() => console.log('button pressed')}>Press Me</button>
       </header>
     </div>
   );
